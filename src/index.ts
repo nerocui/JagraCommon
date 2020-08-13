@@ -15,3 +15,5 @@ export * from './nats/interfaces/base-publisher';
 export * from './nats/constants/subjects';
 export * from './nats/events/booking-created-event';
 export * from './nats/events/booking-updated-event';
+
+export * from './utils/auth';
