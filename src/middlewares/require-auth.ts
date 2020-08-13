@@ -13,5 +13,6 @@ export const requireAuth = (req: Request, res: Response, next: NextFunction) => 
     } catch (_) {
         throw new NotAuthorizedError();
     }
+    req.headers['user'] = JSON.stringify(jwt.decode(token));
     next();
 }
