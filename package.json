@@ -1,7 +1,6 @@
 {
   "name": "@jagra_task_manager/common",
   "version": "0.0.9",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
