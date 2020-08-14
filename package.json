@@ -1,6 +1,7 @@
 {
   "name": "@jagra_task_manager/common",
   "version": "0.0.9",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -9,7 +10,7 @@
   ],
   "scripts": {
     "clean": "del-cli ./build/*",
-    "build": "npm run clean && tsc",
+    "build": "tsc",
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
